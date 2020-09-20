@@ -1,0 +1,67 @@
+> init
+<<<
++ b1.txt b1.txt
++ b2.txt b2.txt
++ b3.txt b3.txt
++ b4.txt b4.txt
++ b5.txt b5.txt
++ b6.txt b6.txt
+> add b1.txt
+<<<
+> add b2.txt
+<<<
+> add b3.txt
+<<<
+> add b4.txt
+<<<
+> add b5.txt
+<<<
+> add b6.txt
+<<<
+> commit master
+<<<
+> branch other
+<<<
++ b1.txt b1other.txt
++ b3.txt b3same.txt
++ b8.txt b8.txt
+> add b1.txt
+<<<
+> add b3.txt
+<<<
+> rm b4.txt
+<<<
+> add b8.txt
+<<<
+> rm b5.txt
+<<<
+> commit master
+<<<
+> checkout other
+<<<
++ b2.txt b2master.txt
++ b3.txt b3same.txt
++ b7.txt b7.txt
+> add b2.txt
+<<<
+> add b3.txt
+<<<
+> rm b4.txt
+<<<
+> add b7.txt
+<<<
+> rm b5.txt
+<<<
+> commit other
+<<<
+> checkout master
+<<<
+> merge other
+<<<
+= b1.txt b1other.txt
+= b2.txt b2master.txt
+= b3.txt b3same.txt
+* b4.txt
+* b5.txt
+= b7.txt b7.txt
+= b8.txt b8.txt

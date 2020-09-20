@@ -1,0 +1,63 @@
+> init
+<<<
++ b1.txt b1.txt
+> add b1.txt
+<<<
+> commit sp-farther
+<<<
+> branch other
+<<<
++ b2.txt b2.txt
+> add b2.txt
+<<<
+> commit master1
+<<<
++ b3.txt b3.txt
+> add b3.txt
+<<<
+> commit master2
+<<<
+> checkout other
+<<<
++ b4.txt b4.txt
+> add b4.txt
+<<<
+> commit other1
+<<<
++ b5.txt b5.txt
++ b1.txt b1other.txt
+> add b5.txt
+<<<
+> add b1.txt
+<<<
+> commit other2/closer-sp
+<<<
+> branch temp
+<<<
+> checkout master
+<<<
+> merge temp
+<<<
++ b6.txt b6.txt
+> add b6.txt
+<<<
+> commit master4
+<<<
+> checkout other
+<<<
++ b7.txt b7.txt
+> add b7.txt
+<<<
+> commit other3
+<<<
+> checkout master
+<<<
+> merge other
+<<<
+= b1.txt b1other.txt
+= b2.txt b2.txt
+= b3.txt b3.txt
+= b4.txt b4.txt
+= b5.txt b5.txt
+= b6.txt b6.txt
+= b7.txt b7.txt

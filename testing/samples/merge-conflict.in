@@ -1,0 +1,52 @@
+> init
+<<<
++ b1.txt b1.txt
++ b2.txt b2.txt
++ b3.txt b3.txt
+> add b1.txt
+<<<
+> add b2.txt
+<<<
+> add b3.txt
+<<<
+> commit sp
+<<<
+> branch other
+<<<
+> checkout other
+<<<
++ b1.txt b1other.txt
++ b2.txt b2other.txt
++ b4.txt b4other.txt
+> add b1.txt
+<<<
+> add b2.txt
+<<<
+> rm b3.txt
+<<<
+> add b4.txt
+<<<
+> commit other
+<<<
+> checkout master
+<<<
++ b1.txt b1master.txt
+> add b1.txt
+<<<
+> rm b2.txt
+<<<
++ b3.txt b3master.txt
+> add b3.txt
+<<<
++ b4.txt b4master.txt
+> add b4.txt
+<<<
+> commit master
+<<<
+> merge other
+Encountered a merge conflict.
+<<<
+= b1.txt b1merged.txt
+= b2.txt b2merged.txt
+= b3.txt b3merged.txt
+= b4.txt b4merged.txt

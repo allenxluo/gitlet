@@ -1,0 +1,38 @@
+> init
+<<<
++ b1.txt b1.txt
+> add b1.txt
+<<<
+> commit init
+<<<
++ b2.txt b2.txt
+> add b2.txt
+<<<
+> commit other
+<<<
+> branch other
+<<<
++ b3.txt b3.txt
+> add b3.txt
+<<<
+> commit masterv2
+<<<
++ b4.txt b4.txt
+> add b4.txt
+<<<
+> rm b1.txt
+<<<
++ b2.txt b2master.txt
+> add b2.txt
+<<<
+> commit master-head
+<<<
+> checkout other
+<<<
+> merge master
+Current branch fast-forwarded.
+<<<
+* b1.txt
+= b2.txt b2master.txt
+= b3.txt b3.txt
+= b4.txt b4.txt
